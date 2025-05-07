@@ -1,0 +1,44 @@
+{
+  "name": "@botanicastudios/stl-viewer",
+  "version": "0.0.1",
+  "description": "A simple and lightweight STL file viewer web component",
+  "type": "module",
+  "main": "dist/stl-viewer.umd.cjs",
+  "module": "dist/stl-viewer.js",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/botanicastudios/stl-viewer.git"
+  },
+  "homepage": "https://github.com/botanicastudios/stl-viewer",
+  "bugs": {
+    "url": "https://github.com/botanicastudios/stl-viewer/issues"
+  },
+  "jsdelivr": "dist/stl-viewer.umd.cjs",
+  "unpkg": "dist/stl-viewer.umd.cjs",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "stl",
+    "viewer",
+    "3d",
+    "web-component",
+    "three.js"
+  ],
+  "author": "Travis Geis",
+  "license": "MIT",
+  "dependencies": {
+    "three": "^0.159.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.10"
+  }
+}
