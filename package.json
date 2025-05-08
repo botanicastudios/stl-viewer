@@ -1,9 +1,9 @@
 {
   "name": "@botanicastudios/stl-viewer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple and lightweight STL file viewer web component",
   "type": "module",
-  "main": "dist/stl-viewer.umd.cjs",
+  "main": "dist/stl-viewer.iife.js",
   "module": "dist/stl-viewer.js",
   "files": [
     "dist"
@@ -19,10 +19,10 @@
   "bugs": {
     "url": "https://github.com/botanicastudios/stl-viewer/issues"
   },
-  "jsdelivr": "dist/stl-viewer.umd.cjs",
-  "unpkg": "dist/stl-viewer.umd.cjs",
+  "jsdelivr": "dist/stl-viewer.iife.js",
+  "unpkg": "dist/stl-viewer.iife.js",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --config vite.dev.js",
     "build": "vite build",
     "prepublishOnly": "npm run build"
   },
